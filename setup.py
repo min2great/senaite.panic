@@ -5,7 +5,7 @@ version = "1.0.1"
 setup(
     name="valer.panic",
     version=version,
-    description="Panic level alerts for SENAITE",
+    description="Panic level alerts for VALER LIS",
     long_description=open("README.rst").read() + "\n" +
     open("CHANGES.rst").read() + "\n",
     # Get more strings from
