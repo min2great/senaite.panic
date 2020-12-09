@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 version = "1.0.1"
 
 setup(
-    name="senaite.panic",
+    name="valer.panic",
     version=version,
     description="Panic level alerts for SENAITE",
     long_description=open("README.rst").read() + "\n" +
@@ -17,9 +17,9 @@ setup(
         "License :: OSI Approved :: GNU General Public License v2 (GPLv2)",
     ],
     keywords=['senaite', 'lims', 'opensource'],
-    author="RIDING BYTES & NARALABS",
-    author_email="senaite@senaite.com",
-    url="https://github.com/senaite/senaite.panic",
+    author="Valer Group LLC",
+    author_email="valerio.zhang@valer.us",
+    url="https://github.com/valeriozhang/senaite.panic",
     license="GPLv2",
     packages=find_packages("src", exclude=["ez_setup"]),
     package_dir={"": "src"},
@@ -27,7 +27,7 @@ setup(
     include_package_data=True,
     zip_safe=False,
     install_requires=[
-        "senaite.lims>=1.3.4",
+        "valer.lims>=1.3.4",
         "requests",
     ],
     extras_require={
