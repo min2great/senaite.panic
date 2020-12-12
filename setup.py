@@ -1,9 +1,9 @@
 from setuptools import setup, find_packages
 
-version = "1.0.1"
+version = "1.0.1rc1"
 
 setup(
-    name="valeri.panic",
+    name="valer.panic",
     version=version,
     description="Panic level alerts for VALER LIS",
     long_description=open("README.rst").read() + "\n" +
@@ -27,7 +27,7 @@ setup(
     include_package_data=True,
     zip_safe=False,
     install_requires=[
-        "valeri.lims==1.3.4",
+        "valer.lims==1.3.4rc1",
         "requests",
     ],
     extras_require={
