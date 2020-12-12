@@ -27,7 +27,7 @@ setup(
     include_package_data=True,
     zip_safe=False,
     install_requires=[
-        "valer.lims>=1.3.4",
+        "valer.lims==1.3.4",
         "requests",
     ],
     extras_require={
