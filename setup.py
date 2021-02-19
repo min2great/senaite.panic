@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-version = "1.0.1rc9"
+version = "1.0.1rc10"
 
 setup(
     name="valer.panic",
@@ -27,7 +27,7 @@ setup(
     include_package_data=True,
     zip_safe=False,
     install_requires=[
-        "valer.lims==1.3.4rc9",
+        "valer.lims==1.3.4rc10",
         "requests",
     ],
     extras_require={
